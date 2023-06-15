@@ -33,7 +33,7 @@
   width: 30px;
   height: 30px;
   border: 1px solid transparent;
-  background-color: rgb(255, 243, 229);
+  background-color: #eee6cb;
   border-radius: 5px;
 }
 
@@ -54,6 +54,8 @@ span {
 @media (max-width: 650px) {
   #btn-mobile {
     display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 0.5rem 1rem;
     font-size: 1rem;
     border: none;
