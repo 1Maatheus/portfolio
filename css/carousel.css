@@ -2,8 +2,12 @@
   display: flex;
   justify-content: center;
   overflow: hidden;
-
   position: relative;
+}
+
+.box1 {
+  display: flex;
+  justify-content: center;
 }
 
 .title {
@@ -13,14 +17,15 @@
 
 .project {
   width: fit-content;
-  background-color: rgba(197, 95, 95, 0.2);
+  background-color: rgba(255, 255, 255, 0.3);
   border-radius: 6px;
   padding: 0.7rem;
-  margin-top: 5rem;
+  margin-top: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
 .box {

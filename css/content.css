@@ -8,6 +8,7 @@
 }
 
 .line {
+  color: #fff;
   border-right: 2px solid white;
   font-family: "Rubik", sans-serif;
   font-size: 2rem;
@@ -21,6 +22,7 @@
 }
 
 .line-mobile {
+  color: #fff;
   display: none;
   text-align: center;
   font-size: 2rem;
@@ -44,20 +46,5 @@
   }
   to {
     border-right-color: transparent;
-  }
-}
-
-@media (max-width: 710px) {
-  .content {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .animacao {
-    display: none;
-  }
-
-  .line-mobile {
-    display: block;
   }
 }

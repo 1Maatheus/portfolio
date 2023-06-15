@@ -10,11 +10,7 @@
 body,
 html {
   font-family: "Roboto", sans-serif;
-  background: linear-gradient(
-    180deg,
-    rgba(111, 157, 255, 1) 0%,
-    rgba(58, 63, 91, 1) 100%
-  );
+  background: linear-gradient(180deg, rgb(77, 76, 76) 0%, rgb(0, 0, 0) 100%);
   background-attachment: fixed;
   overflow-x: hidden;
   height: 100vh;
