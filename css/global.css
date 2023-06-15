@@ -10,5 +10,11 @@
 body,
 html {
   font-family: "Roboto", sans-serif;
-  background-color: #dbd4cb;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(247, 227, 172, 1) 100%
+  );
+  background-attachment: fixed;
+  overflow-x: hidden;
 }

@@ -1,0 +1,43 @@
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 5.5rem;
+  gap: 25px;
+}
+
+.left {
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-transform: uppercase;
+  padding: 25px;
+  width: 350px;
+}
+
+.left h6 {
+  font-size: 40px;
+}
+
+.right {
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-transform: uppercase;
+  padding: 25px;
+  width: 350px;
+}
+
+.right h6 {
+  font-size: 40px;
+}
+
+@media (max-width: 710px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+}

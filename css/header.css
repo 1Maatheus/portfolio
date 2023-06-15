@@ -1,7 +1,8 @@
 .header {
   width: 100vw;
   padding: 0.625rem 1.563rem;
-  background-color: #faf2e9;
+  background-color: #fdfcef;
+  box-shadow: 0 0.5px 3px black;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -36,8 +37,20 @@ li a {
   padding: 5px;
   border-bottom: 2px solid transparent;
   transition: 0.7s;
+  font-weight: 600;
 }
 
 a:hover {
   border-bottom: 2px solid #5c015f60;
+}
+
+@media (max-width: 650px) {
+  .header {
+    display: flex;
+    justify-content: center;
+  }
+
+  li {
+    display: none;
+  }
 }
