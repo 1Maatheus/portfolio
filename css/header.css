@@ -1,11 +1,16 @@
 .header {
   width: 100vw;
   padding: 0.625rem 1.563rem;
-  background-color: #fafafa;
-  box-shadow: 0 0.5px 3px black;
+  background-color: #ffffff;
+  box-shadow: 0 0.3px 0.9px rgb(255, 255, 255);
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.nome {
+  color: #5b097c;
+  font-weight: 700;
 }
 
 .menu {
@@ -25,7 +30,7 @@
 }
 
 .menu a:hover {
-  border-bottom: 2px solid tomato;
+  border-bottom: 2px solid #5b097c;
 }
 
 #btn-mobile {
@@ -33,7 +38,7 @@
   width: 30px;
   height: 30px;
   border: 1px solid transparent;
-  background-color: #eee6cb;
+  background-color: #ffffff;
   border-radius: 5px;
 }
 
@@ -48,7 +53,7 @@
 }
 
 span {
-  color: rgb(88, 51, 122);
+  color: #ffffff;
 }
 
 @media (max-width: 650px) {
@@ -60,6 +65,8 @@ span {
     font-size: 1rem;
     border: none;
     cursor: pointer;
+    background-color: #000000;
+    color: #fff;
   }
 
   .menu {
@@ -69,15 +76,16 @@ span {
     height: 0;
     right: 0;
     top: 50px;
-    transition: 0.6s;
+    transition: 0.8s;
     z-index: 1000;
-    background-color: #fafafa;
+    background: transparent;
     visibility: hidden;
     overflow-y: hidden;
   }
 
   #nav.active .menu {
-    height: 40%;
+    height: 45%;
+    background-color: #fff;
     visibility: visible;
   }
 }
