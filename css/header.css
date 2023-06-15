@@ -1,0 +1,43 @@
+.header {
+  width: 100vw;
+  padding: 0.625rem 1.563rem;
+  background-color: #faf2e9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+  font-family: "Rubik", sans-serif;
+  display: inline-block;
+  color: #000000;
+  text-transform: uppercase;
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+  font-size: 1.375rem;
+  margin-left: 3.125rem;
+  cursor: default;
+}
+
+span {
+  color: rgb(88, 51, 122);
+}
+
+.nav {
+  gap: 3.125rem;
+  margin-right: 3.125rem;
+  font-family: "Roboto", sans-serif;
+}
+
+li a {
+  text-decoration: none;
+  color: #111;
+  text-transform: uppercase;
+  padding: 5px;
+  border-bottom: 2px solid transparent;
+  transition: 0.7s;
+}
+
+a:hover {
+  border-bottom: 2px solid #5c015f60;
+}
