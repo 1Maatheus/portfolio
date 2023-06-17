@@ -1,0 +1,15 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #fff;
+  margin-top: 3rem;
+  height: 4rem;
+}
+
+.conteudo-final {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
