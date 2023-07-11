@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;900&family=Roboto:wght@300;400&display=swap");
+
+body {
+  background: #0e0c0c;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+//Animação Plugin
+
+.fadeInDown {
+  transform: translate3d(0, -20px, 0);
+}
+.fadeInUp {
+  transform: translate3d(0, 20px, 0);
+}
+.fadeInRight {
+  transform: translate3d(20px, 0, 0);
+}
+.fadeInLeft {
+  transform: translate3d(-20px, 0, 0);
+}
+
+[data-anime] {
+  opacity: 0;
+}
+.anime {
+  opacity: 1;
+  transform: none;
+  transition: transform 0.8s, opacity 0.8s;
+}
