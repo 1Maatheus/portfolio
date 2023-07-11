@@ -133,7 +133,7 @@ body {
   overflow: hidden;
 }
 .mobile-menu li + li {
-  margin-top: 1.125em;
+  margin-top: 3em;
 }
 .mobile-menu li {
   text-align: center;
@@ -151,6 +151,9 @@ body {
   .menu-nav {
     display: none;
   }
+  .logo {
+    font-size: 1.8em;
+  }
   .mobile-toggle {
     display: block;
     font-size: 1.8em;
@@ -159,9 +162,6 @@ body {
     display: block;
     width: 90%;
     right: 20px;
-  }
-  .logo {
-    font-size: 1.8em;
   }
 }
 .footer {
