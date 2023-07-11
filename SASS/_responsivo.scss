@@ -1,9 +1,25 @@
 // Header
-@media (max-width: 520px) {
+@media (max-width: 600px) {
   .nav {
-    justify-content: center;
+    justify-content: space-between;
   }
-  .list-item {
-    margin-top: 20px;
+
+  .menu-nav {
+    display: none;
+  }
+
+  .mobile-toggle {
+    display: block;
+    font-size: 1.8em;
+  }
+
+  .mobile-menu {
+    display: block;
+    width: 90%;
+    right: 20px;
+  }
+
+  .logo {
+    font-size: 1.8em;
   }
 }

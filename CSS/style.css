@@ -13,7 +13,8 @@ a {
   display: inline-block;
 }
 
-ul {
+ul,
+li {
   list-style: none;
 }
 
@@ -57,8 +58,10 @@ body {
 
 .header {
   padding: 10px 30px;
-  background-color: #131212;
+  background-color: rgba(19, 18, 18, 0.6039215686);
+  backdrop-filter: blur(10px);
   box-shadow: 0px 0px 2px 0px rgba(255, 255, 255, 0.1529411765);
+  position: relative;
 }
 
 .nav {
@@ -78,6 +81,7 @@ body {
 .list-item {
   padding: 10px 10px;
   transition: 0.4s ease;
+  text-transform: uppercase;
 }
 .list-item:hover {
   background-color: #ffffff;
@@ -91,9 +95,10 @@ body {
 
 .logo {
   font-family: "Nunito" sans-serif;
-  font-weight: 200;
+  font-weight: 400;
   color: #ffffff;
   position: relative;
+  text-transform: uppercase;
 }
 .logo::after {
   content: "";
@@ -110,13 +115,62 @@ body {
   background-color: #5ca7d3;
 }
 
-@media (max-width: 520px) {
+.mobile-toggle {
+  cursor: pointer;
+  font-size: 22px;
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+  position: absolute;
+  right: 2em;
+  top: 4em;
+  width: 120px;
+  height: 0;
+  padding: 10px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.mobile-menu li + li {
+  margin-top: 1.125em;
+}
+.mobile-menu li {
+  text-align: center;
+}
+
+.mobile-menu.open {
+  height: max-content;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 600px) {
   .nav {
-    justify-content: center;
+    justify-content: space-between;
   }
-  .list-item {
-    margin-top: 20px;
+  .menu-nav {
+    display: none;
   }
+  .mobile-toggle {
+    display: block;
+    font-size: 1.8em;
+  }
+  .mobile-menu {
+    display: block;
+    width: 90%;
+    right: 20px;
+  }
+  .logo {
+    font-size: 1.8em;
+  }
+}
+.footer {
+  background-color: rgba(19, 18, 18, 0.6039215686);
+  text-align: center;
+  padding: 20px;
+}
+.footer p {
+  font-family: "" sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */
