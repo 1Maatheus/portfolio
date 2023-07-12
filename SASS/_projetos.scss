@@ -1,0 +1,11 @@
+.main {
+  margin-top: 60px;
+}
+
+.projetos {
+  max-width: 1400px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  margin: 0 auto;
+  justify-items: center;
+}

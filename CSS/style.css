@@ -65,7 +65,7 @@ body {
 }
 
 .nav {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -141,15 +141,15 @@ body {
 
 .mobile-menu.open {
   height: max-content;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: #161414;
 }
 
-.main {
+.article {
   margin-top: 120px;
 }
 
 .introducao {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 60px 0px;
   display: grid;
@@ -159,15 +159,93 @@ body {
 .introducao-titulo {
   font-family: "Nunito";
   text-transform: uppercase;
-  font-size: 3em;
+  font-size: 2.5em;
   font-weight: 200;
-  width: 17ch;
 }
 
 .front-end {
   color: #5ca7d3;
 }
 
+.introducao-paragrafo {
+  margin-top: 2em;
+  font-size: 0.5em;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.3;
+  letter-spacing: 1.2px;
+}
+
+.wave-hand {
+  display: inline-block;
+  animation: wave 2.5s ease infinite;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.js {
+  color: #f0db4f;
+  font-weight: bold;
+}
+
+.sass {
+  color: #cd6799;
+  font-weight: bold;
+}
+
+.bootstrap {
+  color: #553c7b;
+  font-weight: bold;
+}
+
+.react {
+  color: #61dbfb;
+  font-weight: bold;
+}
+
+.right {
+  font-size: 8em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.animation {
+  display: block;
+  animation: scale 3s ease infinite alternate;
+}
+
+@keyframes scale {
+  from {
+    scale: 1;
+  }
+  to {
+    scale: 1.2;
+  }
+}
 .footer {
   background-color: rgba(19, 18, 18, 0.6039215686);
   text-align: center;
@@ -175,6 +253,18 @@ body {
 }
 .footer p {
   font-family: "" sans-serif;
+}
+
+.main {
+  margin-top: 60px;
+}
+
+.projetos {
+  max-width: 1400px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  margin: 0 auto;
+  justify-items: center;
 }
 
 @media (max-width: 600px) {
@@ -198,16 +288,29 @@ body {
   }
 }
 @media (max-width: 600px) {
+  .article {
+    margin-top: 0;
+  }
   .introducao {
     grid-template-columns: 1fr;
     justify-items: center;
   }
-  .main {
-    margin-top: 0;
-  }
   .introducao-titulo {
     font-size: 1.9em;
     text-align: center;
+    padding: 0px 8px;
+  }
+  .right {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .main {
+    margin-top: 20px;
+  }
+  .projetos {
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
   }
 }
 

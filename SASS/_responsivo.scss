@@ -27,16 +27,34 @@
 //Introdução
 
 @media (max-width: 600px) {
+  .article {
+    margin-top: 0;
+  }
+
   .introducao {
     grid-template-columns: 1fr;
     justify-items: center;
-  }
-  .main {
-    margin-top: 0;
   }
 
   .introducao-titulo {
     font-size: 1.9em;
     text-align: center;
+    padding: 0px 8px;
+  }
+
+  .right {
+    display: none;
+  }
+}
+
+//Projetos
+
+@media (max-width: 600px) {
+  .main {
+    margin-top: 20px;
+  }
+  .projetos {
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
   }
 }
