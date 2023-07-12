@@ -303,6 +303,9 @@ body {
   .right {
     display: none;
   }
+  .wave-hand {
+    animation: none;
+  }
 }
 @media (max-width: 600px) {
   .main {
