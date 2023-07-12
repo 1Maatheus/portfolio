@@ -34,6 +34,7 @@
   .introducao {
     grid-template-columns: 1fr;
     justify-items: center;
+    padding: 20px 0px;
   }
 
   .introducao-titulo {
@@ -58,7 +59,23 @@
     margin-top: 20px;
   }
   .projetos {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     justify-items: center;
+    margin-top: 60px;
+  }
+
+  .projetos-item {
+    width: 350px;
+  }
+
+  .github {
+    left: 150px;
+    bottom: 10px;
+    font-size: 3.4em;
+  }
+
+  .main-titulo {
+    margin: 0px;
+    font-size: 1.8em;
   }
 }

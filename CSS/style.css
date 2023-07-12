@@ -250,6 +250,7 @@ body {
   background-color: rgba(19, 18, 18, 0.6039215686);
   text-align: center;
   padding: 20px;
+  margin-top: 60px;
 }
 .footer p {
   font-family: "" sans-serif;
@@ -260,11 +261,47 @@ body {
 }
 
 .projetos {
-  max-width: 1400px;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  max-width: 1400px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 100%;
   margin: 0 auto;
   justify-items: center;
+}
+
+.main-titulo {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 4em 0em;
+}
+
+.projetos-item {
+  width: 400px;
+  height: 250px;
+  border-radius: 8px;
+  background-color: #000000;
+  transition: 0.4s ease;
+  overflow: hidden;
+  position: relative;
+}
+.projetos-item:hover {
+  scale: 1.1;
+}
+
+.github {
+  display: block;
+  font-size: 2em;
+  color: #fdfdfd;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.img {
+  display: flex;
+  flex-direction: column;
 }
 
 @media (max-width: 600px) {
@@ -294,6 +331,7 @@ body {
   .introducao {
     grid-template-columns: 1fr;
     justify-items: center;
+    padding: 20px 0px;
   }
   .introducao-titulo {
     font-size: 1.9em;
@@ -312,8 +350,21 @@ body {
     margin-top: 20px;
   }
   .projetos {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     justify-items: center;
+    margin-top: 60px;
+  }
+  .projetos-item {
+    width: 350px;
+  }
+  .github {
+    left: 150px;
+    bottom: 10px;
+    font-size: 3.4em;
+  }
+  .main-titulo {
+    margin: 0px;
+    font-size: 1.8em;
   }
 }
 

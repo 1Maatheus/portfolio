@@ -3,9 +3,45 @@
 }
 
 .projetos {
-  max-width: 1400px;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  max-width: 1400px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 100%;
   margin: 0 auto;
   justify-items: center;
+}
+
+.main-titulo {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 4em 0em;
+}
+
+.projetos-item {
+  width: 400px;
+  height: 250px;
+  border-radius: 8px;
+  background-color: #000000;
+  transition: 0.4s ease;
+  overflow: hidden;
+  position: relative;
+  &:hover {
+    scale: 1.1;
+  }
+}
+
+.github {
+  display: block;
+  font-size: 2em;
+  color: #fdfdfd;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.img {
+  display: flex;
+  flex-direction: column;
 }
