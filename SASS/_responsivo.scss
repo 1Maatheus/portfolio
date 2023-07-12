@@ -23,3 +23,20 @@
     right: 20px;
   }
 }
+
+//Introdução
+
+@media (max-width: 600px) {
+  .introducao {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .main {
+    margin-top: 0;
+  }
+
+  .introducao-titulo {
+    font-size: 1.9em;
+    text-align: center;
+  }
+}
