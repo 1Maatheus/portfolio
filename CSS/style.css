@@ -25,7 +25,7 @@ img {
 }
 
 body {
-  background: #0e0c0c;
+  background: #000000;
   color: #fff;
   font-family: "Roboto", sans-serif;
 }
@@ -218,11 +218,6 @@ body {
 
 .bootstrap {
   color: #553c7b;
-  font-weight: bold;
-}
-
-.react {
-  color: #61dbfb;
   font-weight: bold;
 }
 
