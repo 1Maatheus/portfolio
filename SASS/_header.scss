@@ -3,7 +3,10 @@
   background-color: #1312129a;
   backdrop-filter: blur(10px);
   box-shadow: 0px 0px 2px 0px #ffffff27;
-  position: relative;
+  position: fixed;
+  top: 0px;
+  z-index: 999;
+  width: 100%;
 }
 
 .nav {
