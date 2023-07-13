@@ -7,3 +7,21 @@
     font-family: "" sans-serif;
   }
 }
+
+.top {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 50px;
+  cursor: pointer;
+}
+
+.seta {
+  color: #000;
+  font-size: 1.7em;
+}
