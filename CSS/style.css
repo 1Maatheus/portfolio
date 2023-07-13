@@ -28,6 +28,7 @@ body {
   background: #000000;
   color: #fff;
   font-family: "Roboto", sans-serif;
+  position: relative;
 }
 
 .fadeInDown {
@@ -264,7 +265,9 @@ body {
   justify-content: center;
   position: absolute;
   right: 50px;
+  bottom: 80px;
   cursor: pointer;
+  animation: top 3.5s infinite alternate;
 }
 
 .seta {
@@ -272,6 +275,14 @@ body {
   font-size: 1.7em;
 }
 
+@keyframes top {
+  from {
+    bottom: 80px;
+  }
+  to {
+    bottom: 100px;
+  }
+}
 .main {
   margin-top: 60px;
 }

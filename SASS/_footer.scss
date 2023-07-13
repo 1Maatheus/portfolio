@@ -18,10 +18,22 @@
   justify-content: center;
   position: absolute;
   right: 50px;
+  bottom: 80px;
   cursor: pointer;
+  animation: top 3.5s infinite alternate;
 }
 
 .seta {
   color: #000;
   font-size: 1.7em;
+}
+
+@keyframes top {
+  from {
+    bottom: 80px;
+  }
+
+  to {
+    bottom: 100px;
+  }
 }
