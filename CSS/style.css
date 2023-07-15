@@ -28,7 +28,8 @@ body {
   color: #fff;
   font-family: "Roboto", sans-serif;
   position: relative;
-  background-color: #2a63ab;
+  background-color: #000000;
+  overflow-x: hidden;
 }
 
 .fadeInDown {
@@ -347,8 +348,8 @@ body {
   }
   .mobile-menu {
     display: block;
-    width: 90%;
-    right: 20px;
+    width: 100%;
+    right: 0px;
   }
 }
 @media (max-width: 600px) {
