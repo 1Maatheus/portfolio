@@ -1,0 +1,28 @@
+.contato {
+  margin-top: 60px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.contato-titulo {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 4em 0em;
+  font-size: 2em;
+}
+
+.contato-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.contato-icons {
+  font-size: 4em;
+  cursor: pointer;
+  transition: 0.4s ease;
+  &:hover {
+    scale: 1.2;
+  }
+}

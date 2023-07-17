@@ -300,6 +300,7 @@ body {
   text-transform: uppercase;
   font-weight: 400;
   margin: 4em 0em;
+  position: relative;
 }
 
 .projetos-item {
@@ -327,6 +328,35 @@ body {
 .img {
   display: flex;
   flex-direction: column;
+}
+
+.contato {
+  margin-top: 60px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.contato-titulo {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 4em 0em;
+  font-size: 2em;
+}
+
+.contato-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.contato-icons {
+  font-size: 4em;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+.contato-icons:hover {
+  scale: 1.2;
 }
 
 @media (max-width: 600px) {
@@ -391,6 +421,19 @@ body {
   .main-titulo {
     margin: 0px;
     font-size: 1.8em;
+  }
+}
+@media (max-width: 600px) {
+  .contato-grid {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .contato {
+    margin-top: 0px;
+  }
+  .contato-titulo {
+    margin: 2em;
   }
 }
 @media (max-width: 600px) {

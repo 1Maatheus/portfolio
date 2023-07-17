@@ -25,7 +25,6 @@
 }
 
 //Introdução
-
 @media (max-width: 600px) {
   .article {
     margin-top: 0;
@@ -54,7 +53,6 @@
 }
 
 //Projetos
-
 @media (max-width: 600px) {
   .main {
     margin-top: 20px;
@@ -81,8 +79,23 @@
   }
 }
 
-//footer
+//Contato
+@media (max-width: 600px) {
+  .contato-grid {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .contato {
+    margin-top: 0px;
+  }
 
+  .contato-titulo {
+    margin: 2em;
+  }
+}
+
+//Footer
 @media (max-width: 600px) {
   .top {
     right: 20px;
