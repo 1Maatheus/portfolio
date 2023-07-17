@@ -28,7 +28,9 @@ body {
   color: #fff;
   font-family: "Roboto", sans-serif;
   position: relative;
-  background-color: #000000;
+  background-image: url(../assets/Shiny\ Overlay\ .svg);
+  background-repeat: no-repeat;
+  background-size: cover;
   overflow-x: hidden;
 }
 
@@ -104,6 +106,7 @@ body {
   color: #ffffff;
   position: relative;
   text-transform: uppercase;
+  text-align: center;
 }
 .logo::after {
   content: "";
@@ -360,7 +363,7 @@ body {
     grid-template-columns: 1fr;
     justify-items: center;
     padding: 20px 0px;
-    margin-top: 40px;
+    margin-top: 60px;
   }
   .introducao-titulo {
     font-size: 1.9em;
