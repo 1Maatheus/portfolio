@@ -85,6 +85,17 @@
 }
 
 .img-code {
-  width: 350px;
-  height: 350px;
+  width: 450px;
+  height: 450px;
+  animation: img 4.5s ease infinite alternate;
+}
+
+@keyframes img {
+  0% {
+    scale: 1;
+  }
+
+  100% {
+    scale: 1.15;
+  }
 }

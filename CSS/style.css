@@ -238,10 +238,19 @@ body {
 }
 
 .img-code {
-  width: 350px;
-  height: 350px;
+  width: 450px;
+  height: 450px;
+  animation: img 4.5s ease infinite alternate;
 }
 
+@keyframes img {
+  0% {
+    scale: 1;
+  }
+  100% {
+    scale: 1.15;
+  }
+}
 .footer {
   background-color: rgba(19, 18, 18, 0.2588235294);
   backdrop-filter: blur(20px);
