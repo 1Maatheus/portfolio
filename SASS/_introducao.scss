@@ -8,6 +8,7 @@
   padding: 60px 0px;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: center;
 }
 
 .introducao-titulo {
@@ -83,17 +84,7 @@
   align-items: center;
 }
 
-.animation {
-  display: block;
-  animation: scale 3s ease infinite alternate;
-}
-
-@keyframes scale {
-  from {
-    scale: 1;
-  }
-
-  to {
-    scale: 1.2;
-  }
+.img-code {
+  width: 350px;
+  height: 350px;
 }

@@ -62,9 +62,8 @@ body {
 
 .header {
   padding: 10px 30px;
-  background-color: rgba(19, 18, 18, 0.6039215686);
-  backdrop-filter: blur(10px);
-  box-shadow: 0px 0px 2px 0px rgba(255, 255, 255, 0.1529411765);
+  background-color: rgba(19, 18, 18, 0.231372549);
+  backdrop-filter: blur(20px);
   position: fixed;
   top: 0px;
   z-index: 999;
@@ -107,6 +106,7 @@ body {
   position: relative;
   text-transform: uppercase;
   text-align: center;
+  color: rgb(250, 250, 250);
 }
 .logo::after {
   content: "";
@@ -162,6 +162,7 @@ body {
   padding: 60px 0px;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: center;
 }
 
 .introducao-titulo {
@@ -236,21 +237,14 @@ body {
   align-items: center;
 }
 
-.animation {
-  display: block;
-  animation: scale 3s ease infinite alternate;
+.img-code {
+  width: 350px;
+  height: 350px;
 }
 
-@keyframes scale {
-  from {
-    scale: 1;
-  }
-  to {
-    scale: 1.2;
-  }
-}
 .footer {
-  background-color: rgba(19, 18, 18, 0.6039215686);
+  background-color: rgba(19, 18, 18, 0.2588235294);
+  backdrop-filter: blur(20px);
   text-align: center;
   padding: 20px;
   margin-top: 60px;
