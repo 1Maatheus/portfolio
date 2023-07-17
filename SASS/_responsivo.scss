@@ -1,3 +1,11 @@
+//Geral
+@media (max-width: 600px) {
+  body {
+    background-image: url(../assets/mobile.svg);
+    background-repeat: no-repeat;
+  }
+}
+
 // Header
 @media (max-width: 600px) {
   .nav {
