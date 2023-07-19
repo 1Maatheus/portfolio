@@ -28,7 +28,7 @@ body {
   color: #fff;
   font-family: "Roboto", sans-serif;
   position: relative;
-  background-image: url(../assets/Shiny\ Overlay.svg);
+  background: radial-gradient(circle, rgb(9, 43, 75) 0%, rgb(0, 0, 0) 100%);
   background-repeat: no-repeat;
   background-size: cover;
   overflow-x: hidden;
@@ -368,12 +368,6 @@ body {
   scale: 1.2;
 }
 
-@media (max-width: 600px) {
-  body {
-    background-image: url(../assets/mobile.svg);
-    background-repeat: no-repeat;
-  }
-}
 @media (max-width: 600px) {
   .nav {
     justify-content: space-between;

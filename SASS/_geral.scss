@@ -4,7 +4,11 @@ body {
   color: #fff;
   font-family: "Roboto", sans-serif;
   position: relative;
-  background-image: url(../assets/Shiny\ Overlay.svg);
+  background: radial-gradient(
+    circle,
+    rgba(9, 43, 75, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
   background-repeat: no-repeat;
   background-size: cover;
   overflow-x: hidden;
