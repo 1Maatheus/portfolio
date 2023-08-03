@@ -38,63 +38,6 @@ body {
   transition: transform 0.8s, opacity 0.8s;
 }
 
-.modal-container {
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.6);
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 9999;
-  display: none;
-  justify-content: center;
-  align-items: center;
-}
-
-.modal-container.show {
-  display: flex;
-}
-
-.modal {
-  width: 450px;
-  height: 250px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px 1px #47b5ff3b;
-  background-color: #1a1a1d;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 2.5em;
-  text-transform: uppercase;
-  position: relative;
-}
-
-.btn {
-  position: absolute;
-  top: -20px;
-  right: -20px;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.show .modal {
-  animation: modal 0.4s;
-}
-
-@keyframes modal {
-  from {
-    opacity: 0;
-    transform: translate3d(0, -60px, 0);
-  }
-
-  to {
-    opacity: 1;
-    transform: translate3d(0, 0, 0);
-  }
-}
-
 @media (max-width: 600px) {
   .modal {
     width: 300px;
