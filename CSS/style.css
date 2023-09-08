@@ -348,7 +348,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   font-weight: 400;
-  margin: 4em 0em;
+  margin: 2em 0em;
   position: relative;
 }
 
@@ -380,7 +380,7 @@ body {
 }
 
 .contato {
-  margin-top: 60px;
+  margin-top: 40px;
   max-width: 1400px;
   margin: 0 auto;
 }
@@ -389,7 +389,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   font-weight: 400;
-  margin: 4em 0em;
+  margin: 2em 0em;
   font-size: 2em;
 }
 
@@ -400,7 +400,7 @@ body {
 }
 
 .contato-icons {
-  font-size: 4em;
+  font-size: 2.5em;
   cursor: pointer;
   transition: 0.4s ease;
 }
@@ -474,7 +474,6 @@ body {
 }
 @media (max-width: 600px) {
   .contato-grid {
-    flex-direction: column;
     align-items: center;
     gap: 20px;
   }
@@ -490,6 +489,11 @@ body {
     right: 20px;
     bottom: 70px;
     animation: none;
+    font-size: 0.75em;
+  }
+  .top {
+    width: 25px;
+    height: 25px;
   }
 }
 
