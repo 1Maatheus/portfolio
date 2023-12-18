@@ -61,45 +61,45 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Bikcraft",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "Projeto desenvolvido com a plataforma Origamid, site construído com HTML, CSS e Javascript, totalmente responsivo.",
+    tags: ["Javascript", "HTML", "CSS"],
     imageUrl: bikcraftImg,
   },
   {
-    title: "rmtDev",
+    title: "Buscador CEP",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Buscador de CEP, consumindo uma api pública. O usuário pode pesquisar por um CEP e ver os dados referentes ao mesmo.",
+    tags: ["Javascript", "HTML", "CSS"],
     imageUrl: cepImg,
   },
   {
-    title: "Word Analytics",
+    title: "Conversor de EM para PX",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "Um app que converte valores de EM para PX e vice-versa. O usuário pode escolher o valor base para a conversão. Muito útil para o desenvolvimento de sites responsivos, ",
+    tags: ["Javascript", "HTML", "CSS"],
     imageUrl: convertorImg,
   },
   {
-    title: "Word Analytics",
+    title: "Landing Page",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "Landing page, projeto realizado através de um desafio da frontendmentor.io, onde é desenvolvido um site responsivo com HTML e CSS.",
+    tags: ["HTML", "CSS"],
     imageUrl: landing_pageImg,
   },
   {
-    title: "Word Analytics",
+    title: "Café Landing Page",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "Projeto de uma landing page de um café, realizado através de um desafio da Codante.io",
+    tags: ["HTML", "CSS"],
     imageUrl: meowLandingPageImg,
   },
   {
-    title: "Word Analytics",
+    title: "Pokedex ",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "Projeto clássico de uma pokedex. O usuário pode pesquisar por pokemons e ver detalhes de cada um junto à uma imagem do pokemon.",
+    tags: ["Javascript", "HTML", "CSS"],
     imageUrl: pokedexImg,
   },
 ] as const;
