@@ -1,5 +1,6 @@
 "use client";
 
+import { useSectionInView } from "@/lib/hooks";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
@@ -9,8 +10,10 @@ import { FaGithubSquare } from "react-icons/fa";
 import { HiDownload } from "react-icons/hi";
 
 export default function Intro() {
+  const { ref } = useSectionInView("Home", 0.5);
   return (
     <section
+      ref={ref}
       id="home"
       className="mb-2 max-w-[50rem] text-center sm:mb-0 scroll-mt-28"
     >
@@ -54,7 +57,7 @@ export default function Intro() {
         <span className="font-bold">Olá, eu sou o Matheus.</span> Sou
         <span className="font-bold"> desenvolvedor front-end,</span> com foco em{" "}
         {""}
-        <span className="underline">React (Next.js).</span> Apaixonado por
+        <span className="underline">React (Next.js)</span>. Apaixonado por
         tecnologia e games, construindo sites e web apps responsivos usando
         tecnologias como{" "}
         <span className="font-bold">Tailwind, SASS e TypeScript!</span>
