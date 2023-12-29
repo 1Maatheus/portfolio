@@ -11,10 +11,10 @@ import { experiencesData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 
 export default function Experience() {
-  const { ref } = useSectionInView("Experiência", 0.4);
+  const { ref } = useSectionInView("Cursos", 0.4);
   return (
-    <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
-      <SectionHeading> Experiência </SectionHeading>
+    <section id="courses" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
+      <SectionHeading> Cursos </SectionHeading>
       <VerticalTimeline lineColor="">
         {experiencesData.map((item, index) => (
           <React.Fragment key={index}>
@@ -38,7 +38,6 @@ export default function Experience() {
               visible={true}
             >
               <h3 className="font-semibold capitalize">{item.title}</h3>
-              <p className="font-normal !mt-0">{item.location}</p>
               <p className="!mt-1 !font-normal text-gray-700">
                 {item.description}
               </p>

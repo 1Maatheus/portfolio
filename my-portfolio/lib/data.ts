@@ -1,6 +1,4 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import bikcraftImg from "@/public/bikcraft.png";
 import cepImg from "@/public/cep.png";
@@ -27,8 +25,8 @@ export const links = [
     hash: "#skills",
   },
   {
-    name: "Experiência",
-    hash: "#experience",
+    name: "Cursos",
+    hash: "#courses",
   },
   {
     name: "Contato",
@@ -38,28 +36,39 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Bootcamp Santander DIO JAVA + Angular",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Bootcamp realizado pela Digital Innovation One em parceria com o Santander, com foco em JAVA e Angular, com duração de 2 meses.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2023",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "TypeScript",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "Curso de TypeScript realizado na Udemy, com foco em desenvolvimento web com React e Next.js.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "SASS",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Curso de SASS realizado na Origamid, com projetos práticos e foco em desenvolvimento web responsivo.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2023",
+  },
+  {
+    title: "Git e Github",
+    description:
+      "Curso realizado na OneBitCode, voltado à versionamento de código com Git e Github.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2023",
+  },
+  {
+    title: "Javascript",
+    description:
+      "Curso com foco em Javascript realizado na OneBitCode, realizando projetos práticos e aprendendo conceitos fundamentais da linguagem, como: variáveis, funções, objetos, arrays, manipulação do DOM, etc.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2023",
   },
 ] as const;
 
@@ -70,6 +79,7 @@ export const projectsData = [
       "Projeto desenvolvido com a plataforma Origamid, site construído com HTML, CSS e Javascript, totalmente responsivo.",
     tags: ["Javascript", "HTML", "CSS"],
     imageUrl: bikcraftImg,
+    pageLink: "https://1maatheus.github.io/Bikcraft/",
   },
   {
     title: "Buscador CEP",
@@ -77,6 +87,7 @@ export const projectsData = [
       "Buscador de CEP, consumindo uma api pública. O usuário pode pesquisar por um CEP e ver os dados referentes ao mesmo.",
     tags: ["Javascript", "HTML", "CSS"],
     imageUrl: cepImg,
+    pageLink: "https://1maatheus.github.io/buscador-cep/",
   },
   {
     title: "Conversor de EM para PX",
@@ -84,6 +95,7 @@ export const projectsData = [
       "Um app que converte valores de EM para PX e vice-versa. O usuário pode escolher o valor base para a conversão. Muito útil para o desenvolvimento de sites responsivos, ",
     tags: ["Javascript", "HTML", "CSS"],
     imageUrl: convertorImg,
+    pageLink: "https://1maatheus.github.io/conversor-px-to-em/",
   },
   {
     title: "Landing Page",
@@ -91,6 +103,7 @@ export const projectsData = [
       "Landing page, projeto realizado através de um desafio da frontendmentor.io, onde é desenvolvido um site responsivo com HTML e CSS.",
     tags: ["HTML", "CSS"],
     imageUrl: landing_pageImg,
+    pageLink: "https://1maatheus.github.io/costumer-rating/",
   },
   {
     title: "Café Landing Page",
@@ -98,6 +111,7 @@ export const projectsData = [
       "Projeto de uma landing page de um café, realizado através de um desafio da Codante.io",
     tags: ["HTML", "CSS"],
     imageUrl: meowLandingPageImg,
+    pageLink: "https://1maatheus.github.io/meow-cafe-landing-page/",
   },
   {
     title: "Pokedex ",
@@ -105,6 +119,7 @@ export const projectsData = [
       "Projeto clássico de uma pokedex. O usuário pode pesquisar por pokemons e ver detalhes de cada um junto à uma imagem do pokemon.",
     tags: ["Javascript", "HTML", "CSS"],
     imageUrl: pokedexImg,
+    pageLink: "https://1maatheus.github.io/pokedex-js-vanilla/",
   },
 ] as const;
 
@@ -118,14 +133,6 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
+  "SASS",
   "Framer Motion",
 ] as const;
