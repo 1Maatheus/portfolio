@@ -1,5 +1,16 @@
 import React from "react";
 import { LuGraduationCap } from "react-icons/lu";
+import {
+  FaHtml5,
+  FaCss3Alt,
+  FaReact,
+  FaNodeJs,
+  FaGitAlt,
+  FaSass,
+} from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io5";
+import { SiTypescript, SiNextdotjs, SiTailwindcss } from "react-icons/si";
+import { TbBrandFramerMotion } from "react-icons/tb";
 import bikcraftImg from "@/public/bikcraft.png";
 import cepImg from "@/public/cep.png";
 import convertorImg from "@/public/convertor.png";
@@ -124,15 +135,15 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "SASS",
-  "Framer Motion",
+  React.createElement(FaHtml5),
+  React.createElement(FaCss3Alt),
+  React.createElement(FaReact),
+  React.createElement(FaNodeJs),
+  React.createElement(IoLogoJavascript),
+  React.createElement(SiTypescript),
+  React.createElement(SiNextdotjs),
+  React.createElement(FaGitAlt),
+  React.createElement(SiTailwindcss),
+  React.createElement(FaSass),
+  React.createElement(TbBrandFramerMotion),
 ] as const;
