@@ -7,9 +7,17 @@ import {
   FaNodeJs,
   FaGitAlt,
   FaSass,
+  FaBootstrap,
 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
-import { SiTypescript, SiNextdotjs, SiTailwindcss } from "react-icons/si";
+import {
+  SiTypescript,
+  SiNextdotjs,
+  SiTailwindcss,
+  SiNpm,
+  SiStyledcomponents,
+  SiVisualstudiocode,
+} from "react-icons/si";
 import { TbBrandFramerMotion } from "react-icons/tb";
 import bikcraftImg from "@/public/bikcraft.png";
 import cepImg from "@/public/cep.png";
@@ -135,15 +143,19 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  React.createElement(FaHtml5),
-  React.createElement(FaCss3Alt),
-  React.createElement(FaReact),
-  React.createElement(FaNodeJs),
   React.createElement(IoLogoJavascript),
   React.createElement(SiTypescript),
+  React.createElement(FaReact),
   React.createElement(SiNextdotjs),
+  React.createElement(FaNodeJs),
   React.createElement(FaGitAlt),
+  React.createElement(SiNpm),
+  React.createElement(SiVisualstudiocode),
+  React.createElement(FaHtml5),
+  React.createElement(FaCss3Alt),
   React.createElement(SiTailwindcss),
   React.createElement(FaSass),
+  React.createElement(FaBootstrap),
+  React.createElement(SiStyledcomponents),
   React.createElement(TbBrandFramerMotion),
 ] as const;
