@@ -111,7 +111,7 @@ export const projectsData = [
   {
     title: "Conversor de EM para PX",
     description:
-      "Um app que converte valores de EM para PX e vice-versa. O usuário pode escolher o valor base para a conversão. Muito útil para o desenvolvimento de sites responsivos, ",
+      "Um app que converte valores de EM para PX e vice-versa. O usuário pode escolher o valor base para a conversão.",
     tags: ["Javascript", "HTML", "CSS"],
     imageUrl: convertorImg,
     pageLink: "https://1maatheus.github.io/conversor-px-to-em/",
