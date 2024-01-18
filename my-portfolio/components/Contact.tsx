@@ -4,9 +4,8 @@ import React from "react";
 import SectionHeading from "./Section-Heading";
 import { useSectionInView } from "@/lib/hooks";
 import { motion } from "framer-motion";
-import { sendEmail } from "@/actions/sendEmail";
-import SubmitBtn from "./Submit-Btn";
-import toast from "react-hot-toast";
+import { SiGmail } from "react-icons/si";
+import { FaWhatsappSquare } from "react-icons/fa";
 
 export default function Contact() {
   const { ref } = useSectionInView("Contato", 0.3);
@@ -28,43 +27,23 @@ export default function Contact() {
     >
       <SectionHeading>Contato</SectionHeading>
 
-      <p className="text-gray-700 text-center sm:text-start -mt-3 dark:text-white/80">
-        Entre em contato diretamente em{" "}
-        <a className="underline" href="mailto:matheus7227@gmail.com">
-          matheusoliveira7227@gmail.com
-        </a>
-        {"  "}
-        ou através do form abaixo.
-      </p>
-      <form
-        className="mt-10 flex flex-col dark:text-black"
-        action={async (formData) => {
-          const { data, error } = await sendEmail(formData);
-          if (error) {
-            toast.error(error);
-            return;
-          }
-
-          toast.success("Email enviado com sucesso!");
-        }}
-      >
-        <input
-          type="email"
-          name="senderEmail"
-          required
-          maxLength={500}
-          className="h-14 px-4 rounded-lg borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 dark:outline-none transition-all"
-          placeholder="Seu email"
-        />
-        <textarea
-          className="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:outline-none dark:focus:bg-opacity-100 transition-all"
-          name="message"
-          placeholder="Escreva uma mensagem"
-          required
-          maxLength={5000}
-        />
-        <SubmitBtn />
-      </form>
+      <div>
+        <ul className="flex flex-wrap justify-center gap-2 text-[2.5rem] text-gray-800 ">
+          <li className="bg-white border border-black/[0.1] rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80">
+            <a href="mailto:matheusoliveira7227@gmail.com" target="_blank">
+              <SiGmail />
+            </a>
+          </li>
+          <li className="bg-white border border-black/[0.1] rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80">
+            <a
+              href="https://api.whatsapp.com/send?phone=5511961264121"
+              target="_blank"
+            >
+              <FaWhatsappSquare />
+            </a>
+          </li>
+        </ul>
+      </div>
     </motion.section>
   );
 }
