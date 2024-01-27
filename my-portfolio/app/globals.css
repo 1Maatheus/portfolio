@@ -13,3 +13,13 @@ html.dark {
 .borderBlack {
   @apply border border-black/10;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+  border: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #5d5a87;
+  border-radius: 10px;
+}
