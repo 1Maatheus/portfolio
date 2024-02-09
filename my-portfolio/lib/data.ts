@@ -55,6 +55,26 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "React Completo",
+    description:
+      "Curso de React realizado na Origamid, com projeto prático de uma rede social de cachorros para fixação de conteúdo.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2024",
+  },
+  {
+    title: "TypeScript",
+    description:
+      "Curso de TypeScript realizado na Origamid. Com projetos práticos e aprendizagem completa contendo types, interfaces, classes, typeguard, generics e etc.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2024",
+  },
+  {
+    title: "Next.JS",
+    description: "Curso com foco em Next.JS realizado na plataforma Udemy.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2024",
+  },
+  {
     title: "Bootcamp Santander DIO JAVA + Angular",
     description:
       "Bootcamp realizado pela Digital Innovation One em parceria com o Santander, com foco em JAVA e Angular, com duração de 2 meses.",
