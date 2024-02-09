@@ -20,11 +20,11 @@ import {
 } from "react-icons/si";
 import { TbBrandFramerMotion } from "react-icons/tb";
 import bikcraftImg from "@/public/bikcraft.png";
-import cepImg from "@/public/cep.png";
 import convertorImg from "@/public/convertor.png";
-import landing_pageImg from "@/public/landing-page.png";
 import meowLandingPageImg from "@/public/meow-landing-page.png";
 import pokedexImg from "@/public/pokedex.png";
+import dogsImg from "@/public/dogs.png";
+import weatherImg from "@/public/weather.png";
 
 export const links = [
   {
@@ -121,12 +121,12 @@ export const projectsData = [
     pageLink: "https://1maatheus.github.io/Bikcraft/",
   },
   {
-    title: "Buscador CEP",
+    title: "Dogs - Social Media",
     description:
-      "Buscador de CEP, consumindo uma api pública. O usuário pode pesquisar por um CEP e ver os dados referentes ao mesmo.",
-    tags: ["Javascript", "HTML", "CSS"],
-    imageUrl: cepImg,
-    pageLink: "https://1maatheus.github.io/buscador-cep/",
+      "Rede social para cachorros, criado com React. Aplicação completa, com criação de conta, upload de imagem e possibilidade de comentários nas postagens!",
+    tags: ["React", "Typescript"],
+    imageUrl: dogsImg,
+    pageLink: "https://socialmedia-dogs.vercel.app/",
   },
   {
     title: "Conversor de EM para PX",
@@ -137,11 +137,11 @@ export const projectsData = [
     pageLink: "https://1maatheus.github.io/conversor-px-to-em/",
   },
   {
-    title: "Landing Page",
+    title: "Weather App",
     description:
-      "Landing page, projeto realizado através de um desafio da frontendmentor.io, onde é desenvolvido um site responsivo com HTML e CSS.",
-    tags: ["HTML", "CSS"],
-    imageUrl: landing_pageImg,
+      "Aplicação de previsão do tempo. O usuário pode pesquisar por cidades e ver a previsão do tempo atual e futura.",
+    tags: ["Next.JS", "TypeScript", "Tailwind"],
+    imageUrl: weatherImg,
     pageLink: "https://1maatheus.github.io/costumer-rating/",
   },
   {
