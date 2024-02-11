@@ -32,7 +32,7 @@ export default function Intro() {
               width="768"
               height="1024"
               alt="Matheus portrait"
-              className="h-44 w-44 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+              className="h-[15rem] w-[15rem] rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
           </motion.div>
 
@@ -57,12 +57,18 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Olá, eu sou o Matheus.</span> Sou
+        Olá, eu sou o{" "}
+        <span
+          className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-violet-400 to-fuchsia-500
+        "
+        >
+          Matheus.
+        </span>{" "}
+        Sou
         <span className="font-bold"> desenvolvedor front-end,</span> com foco em{" "}
         {""}
-        <span className="underline">React (Next.js)</span>. Apaixonado por
-        tecnologia e games, construindo sites e web apps responsivos usando
-        tecnologias como{" "}
+        <span className="underline">React</span>. Apaixonado por tecnologia e
+        games, construindo sites e web apps responsivos usando tecnologias como{" "}
         <span className="font-bold">Tailwind, SASS e TypeScript!</span>
       </motion.h1>
 

@@ -19,15 +19,17 @@ export default function About() {
     >
       <SectionHeading>Sobre mim</SectionHeading>
       <p className="mb-3">
-        Atualmente cursando Análise de Desenvolvimento e Sistemas, sou
-        apaixonado por transformar ideias criativas em experiências digitais.
-        Sou desenvolvedor front-end dedicado com conhecimento em tecnologias web
-        modernas. Possuo conhecimentos em{" "}
+        Atualmente cursando{" "}
+        <span className="font-bold">Análise e Desenvolvimento de Sistemas</span>
+        , sou apaixonado por tecnlogia e programação. Sou desenvolvedor
+        front-end, com conhecimento em tecnologias web modernas. Possuo
+        conhecimentos em{" "}
         <span className="font-bold">
-          React (Next.js), JavaScript e TypeScript
+          React, Next.js, JavaScript e TypeScript
         </span>
-        . Estou sempre atento às últimas atualizações e melhores práticas do
-        desenvolvimento front-end, e estou pronto para contribuir de maneira
+        . Estou sempre buscando construir projetos com boas práticas e estudo as
+        documentações das tecnologias que uso atualmente, para sempre melhorar
+        como desenvolvedor front-end. Me sinto pronto para contribuir de maneira
         significativa para o sucesso do seu time. Se você está em busca de um
         desenvolvedor front-end{" "}
         <span className="font-medium">
@@ -35,7 +37,7 @@ export default function About() {
           alta qualidade
         </span>
         , ficarei feliz em discutir como minhas habilidades podem agregar valor
-        à sua equipe. <span className="font-bold">Vamos juntos!</span>
+        à sua equipe!
       </p>
     </motion.section>
   );
