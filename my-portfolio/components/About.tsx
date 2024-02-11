@@ -19,9 +19,10 @@ export default function About() {
     >
       <SectionHeading>Sobre mim</SectionHeading>
       <p className="mb-3">
-        Sou apaixonado por transformar ideias criativas em experiências
-        digitais. Sou desenvolvedor front-end dedicado com conhecimento em
-        tecnologias web modernas. Possuo conhecimentos em{" "}
+        Atualmente cursando Análise de Desenvolvimento e Sistemas, sou
+        apaixonado por transformar ideias criativas em experiências digitais.
+        Sou desenvolvedor front-end dedicado com conhecimento em tecnologias web
+        modernas. Possuo conhecimentos em{" "}
         <span className="font-bold">
           React (Next.js), JavaScript e TypeScript
         </span>
