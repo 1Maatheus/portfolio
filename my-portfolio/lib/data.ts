@@ -17,6 +17,7 @@ import {
   SiNpm,
   SiStyledcomponents,
   SiVisualstudiocode,
+  SiPhp,
 } from "react-icons/si";
 import { TbBrandFramerMotion } from "react-icons/tb";
 import bikcraftImg from "@/public/bikcraft.png";
@@ -165,6 +166,7 @@ export const projectsData = [
 export const skillsData = [
   React.createElement(IoLogoJavascript),
   React.createElement(SiTypescript),
+  React.createElement(SiPhp),
   React.createElement(FaReact),
   React.createElement(SiNextdotjs),
   React.createElement(FaNodeJs),
