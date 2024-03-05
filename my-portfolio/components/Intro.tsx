@@ -67,8 +67,10 @@ export default function Intro() {
         Sou
         <span className="font-bold"> desenvolvedor front-end,</span> com foco em{" "}
         {""}
-        <span className="underline">React</span>. Apaixonado por tecnologia e
-        games, construindo sites e web apps responsivos usando tecnologias como{" "}
+        <span className="font-bold">React</span>. Cursando{" "}
+        <span className="font-bold">Análise e Desenvolvimento de Sistemas</span>
+        , apaixonado por tecnologia e games, construindo sites e web apps
+        responsivos usando tecnologias como{" "}
         <span className="font-bold">Tailwind, SASS e TypeScript!</span>
       </motion.h1>
 
