@@ -12,7 +12,7 @@ const Footer = () => {
       <p className="text-xs">
         <span className="font-semibold">Sobre esse website:</span> criado com
         React e Next.js (App Router & Server Actions), TypeScript, Tailwild CSS,
-        Framer Motion, React Email, Resend e Vercel Hosting.
+        Framer Motion, Resend e Vercel Hosting.
       </p>
     </footer>
   );
